@@ -1,4 +1,4 @@
-# 100daysofdevops
+# 90daysofdevops
 This is my journal of my devops learning journey and projects
 
 I will learn different things, do projects, follow bootcamps, and read books.
