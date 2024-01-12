@@ -11,4 +11,7 @@ https://github.com/sumamazaeem/aws-bootcamp-cruddur-2023
 I started reading the book Terraform Cookbook
 Repo Link: https://github.com/sumamazaeem/Terraformcookbook
 
+Furthermore, to enhance my learning of terraform, I will be following "The Infrastructure Developer's Guide to Terraform: AWS Edition" from cloudacademy, it is hands on lab to enhance learning
+https://cloudacademy.com/learning-paths/terraform-on-aws-1-2377/
+
 ## week 4:
