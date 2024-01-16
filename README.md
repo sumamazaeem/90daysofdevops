@@ -14,7 +14,8 @@ Repo Link: https://github.com/sumamazaeem/Terraformcookbook
 Furthermore, to enhance my learning of Terraform, I followed "The Infrastructure Developer's Guide to Terraform: AWS Edition" from cloud academy, it is hands-on lab to enhance learning
 https://cloudacademy.com/learning-paths/terraform-on-aws-1-2377/
 
-From the above Learning Path of Terraform, I followed the 8 Labs as follows
+From the above Learning Path of Terraform, I followed the 8 Labs as follows  
+
 Lab1: Installing Terraform on Windows and Linux  
 
 Lab2: Deploying AWS Infrastructure with Terraform  
