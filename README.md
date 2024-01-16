@@ -15,13 +15,22 @@ Furthermore, to enhance my learning of Terraform, I followed "The Infrastructure
 https://cloudacademy.com/learning-paths/terraform-on-aws-1-2377/
 
 From the above Learning Path of Terraform, I followed the 8 Labs as follows
-Lab1: Installing Terraform on Windows and Linux
-Lab2: Deploying AWS Infrastructure with Terraform
-Lab3: Configuring Implicit Dependencies in Terraform
-Lab4: Creating Variables in Terraform Configurations
-Lab5: Using Provisioners with Terraform
-Lab6: Exploring Terraform State
-Lab7: Using Terraform Remote State
-Lab8: Creating Reusable Infrastructure with Terraform Modules
+Lab1: Installing Terraform on Windows and Linux  
+
+Lab2: Deploying AWS Infrastructure with Terraform  
+
+Lab3: Configuring Implicit Dependencies in Terraform  
+
+Lab4: Creating Variables in Terraform Configurations  
+
+Lab5: Using Provisioners with Terraform  
+
+Lab6: Exploring Terraform State  
+
+Lab7: Using Terraform Remote State  
+
+Lab8: Creating Reusable Infrastructure with Terraform Modules  
+
+
 
 ## week 4:
