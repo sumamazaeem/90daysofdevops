@@ -36,7 +36,7 @@ IAAC
 
 Diagram of the Project Architecture
 
-![Image](/Section6 Lift and Shift of APP on AWS.png)
+![Image](Section6 Lift and Shift of APP on AWS.png)
 
 
 
