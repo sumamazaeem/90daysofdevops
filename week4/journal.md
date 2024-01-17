@@ -63,7 +63,11 @@ FLOW OF EXECUTION
 
 11. Verify
 
-12 Build Autoscaling Group for Tomcat Instances
+12. Build Autoscaling Group for Tomcat Instances
+
+#Summary
+Successfully did the project. The app is running on https://awsliftandshiftproject.sumamazaeem.com/
+
 
 
 
