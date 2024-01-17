@@ -1,7 +1,9 @@
 I am following the projects from this course
 https://www.udemy.com/course/devopsprojects/
 
-The project I am working on is Section 6: Lift and Shift Web App on AWS
+The project I am working on is 
+
+##Section 6: Lift and Shift Web App on AWS
 
 Its a multi tier WEb app
 we will use aws cloud
@@ -70,7 +72,66 @@ Successfully did the project. The app is running on https://awsliftandshiftproje
 
 
 
+##Section 7: 
+Re-Architecture Web App on AWS Cloud [Cloud Native]
 
+Reason:
+To improve agility
+
+Scenario:
+legacy servers, applications are running on
+multiple teams needed for this workload.
+
+Problem:
+Operational Overhead
+Struggling with uptime and Scaling
+Upfront capEx and Regular OpEx
+Manual Process/Difficult to automate
+
+Solution:
+We will using PaaS and SaaS services in AWS.
+
+AWS Services:
+Using AWS Beanstalk (VM for Tomcat app server)
+  nginx replacement
+  auotmation for vm scaling
+  storage
+
+For Backend:
+RDS for Databases
+Elastic Cache for memchached
+Active Mq instead of RabbitMQ
+Route53 for DNS
+Cloudfront for Cdn
+
+objective:
+Flexible infra
+no upfront cost
+iaac
+paas
+saas
+
+ Comparison:
+ BEanStalk  Tomcat Ec2/VM
+ ELB in Baeanstalk Nginx LB/ELB
+ AUTOSCALING   None/Autoscaling
+ EFS/S3    NFS/S3/EFS
+ RDS   MYSQL ON VM/EC2
+ ELASTIC CACHE MEMCACHED ON VM/EC2
+ ACTIVE MQ RABIITMQ ON VM/EC2
+ ROUTE53  LOCAL DNS
+ 
+Architecture:
+
+EC2 INSTANCE
+ELB
+AUTOSCALING
+EFS/S3
+RDS
+ELASTIC CACHE
+ACTIVE MQ
+ROUTE53
+CLOUDFRONT
 
 
 
