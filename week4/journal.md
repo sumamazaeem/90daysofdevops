@@ -33,8 +33,10 @@ flexible
 no upfront cost
 modernize effectively
 IAAC
-<!-- section 6: 5:50 Min -->
 
+Diagram of the Project Architecture
+
+![Image](week4/Section6 Lift and Shift of APP on AWS.png)
 
 
 
