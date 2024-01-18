@@ -23,14 +23,14 @@ time-consuming
 solution:
 using cloud for pay-as-you-go pricing to save cost.
 
-Architecture:
+Architecture:  
 We will be using EC2 instance for tomcat, rabbitmq, memchache and MySQL
 ELB as replacement of NGINX REplacement
 Autoscaling for automationfor VM Scaling
 S3/EFS for storage
 and route 53 for private DNS Service
 
-objective:
+objective:  
 flexible 
 no upfront cost
 modernize effectively
@@ -72,17 +72,17 @@ Successfully did the project. The app is running on https://awsliftandshiftproje
 
 
 
-##Section 7: 
+##Section 7:   
 Re-Architecture Web App on AWS Cloud [Cloud Native]
 
-Reason:
+Reason:  
 To improve agility
 
 Scenario:
 legacy servers, applications are running on  
 multiple teams needed for this workload.  
 
-Problem:
+Problem:  
 Operational Overhead  
 Struggling with uptime and Scaling  
 Upfront capEx and Regular OpEx  
@@ -91,27 +91,27 @@ Manual Process/Difficult to automate
 Solution:
 We will using PaaS and SaaS services in AWS.  
 
-AWS Services:
+AWS Services:  
 Using AWS Beanstalk (VM for Tomcat app server)  
   nginx replacement  
   auotmation for vm scaling  
   storage  
 
-For Backend:
+For Backend:  
 RDS for Databases  
 Elastic Cache for memchached  
 Active Mq instead of RabbitMQ  
 Route53 for DNS  
 Cloudfront for Cdn  
 
-objective:
+objective:  
 Flexible infra  
 no upfront cost  
 iaac  
 paas  
 saas  
 
- Comparison:
+ Comparison:  
  BEanStalk  Tomcat Ec2/VM  
  ELB in Baeanstalk Nginx LB/ELB  
  AUTOSCALING   None/Autoscaling  
@@ -121,7 +121,7 @@ saas
  ACTIVE MQ RABIITMQ ON VM/EC2  
  ROUTE53  LOCAL DNS  
    
-Architecture:
+Architecture:  
 
 EC2 INSTANCE  
 ELB  
