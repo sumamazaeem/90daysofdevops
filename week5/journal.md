@@ -52,7 +52,7 @@ We will be using the docker compose and dockerhub as well
 
 #### Project Architecture Diagram
 
-![Project Architecture Diagram](/week5/docker-diagram.png)
+![Project Architecture Diagram](/week5/Docker-diagram.png)
 
 ### Flow of Project Execution
 
