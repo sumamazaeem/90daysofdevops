@@ -175,5 +175,8 @@ Update Entry in GoDaddy DNS Zones
 
 Test the URL
 
+Summary:
+Successfully deployed the project, accessible on:
+https://re-architecturing-web-app-sumama.sumamazaeem.com/
 
 
