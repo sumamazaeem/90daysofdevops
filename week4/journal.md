@@ -56,112 +56,102 @@ I completed the project, and the application is now accessible at [https://awsli
 
 
 
+# Re-Architecturing Web App on AWS Cloud [Cloud Native]
 
-##Section 7:   
-Re-Architecture Web App on AWS Cloud [Cloud Native]
+## Section 7
 
-Reason:  
-To improve agility
+### Reason for Re-Architecture:
 
-Scenario:
-legacy servers, applications are running on  
-multiple teams needed for this workload.  
+To improve agility in the existing web application.
 
-Problem:  
-Operational Overhead  
-Struggling with uptime and Scaling  
-Upfront capEx and Regular OpEx  
-Manual Process/Difficult to automate  
+### Scenario:
 
-Solution:
-We will using PaaS and SaaS services in AWS.  
+Legacy servers and applications are currently running, requiring multiple teams to manage the workload.
 
-AWS Services:  
-Using AWS Beanstalk (VM for Tomcat app server)  
-  nginx replacement  
-  auotmation for vm scaling  
-  storage  
+### Problems:
 
-For Backend:  
-RDS for Databases  
-Elastic Cache for memchached  
-Active Mq instead of RabbitMQ  
-Route53 for DNS  
-Cloudfront for Cdn  
+- Operational Overhead
+- Struggles with Uptime and Scaling
+- Upfront CapEx and Regular OpEx
+- Manual Processes/Difficult to Automate
 
-objective:  
-Flexible infra  
-no upfront cost  
-iaac  
-paas  
-saas  
+### Solution:
 
- Comparison:  
- BEanStalk  Tomcat Ec2/VM  
- ELB in Baeanstalk Nginx LB/ELB  
- AUTOSCALING   None/Autoscaling  
- EFS/S3    NFS/S3/EFS  
- RDS   MYSQL ON VM/EC2  
- ELASTIC CACHE MEMCACHED ON VM/EC2  
- ACTIVE MQ RABIITMQ ON VM/EC2  
- ROUTE53  LOCAL DNS  
-   
-Architecture:  
+Utilizing PaaS and SaaS services in AWS.
 
-EC2 INSTANCE  
-ELB  
-AUTOSCALING  
-EFS/S3  
-RDS  
-ELASTIC CACHE  
-ACTIVE MQ  
-ROUTE53  
-CLOUDFRONT 
+### AWS Services:
 
-![Image](/week4/image2.png)
+- AWS Beanstalk (VM for Tomcat app server)
+  - Nginx replacement
+  - Automation for VM scaling
+  - Storage
 
-FLOW OF EXECUTION
+### Backend Services:
 
-Login to aws account  
+- RDS for Databases
+- Elastic Cache for Memcached
+- Active MQ instead of RabbitMQ
+- Route53 for DNS
+- Cloudfront for CDN
 
-Create Key pair for beanstalk instance login  
+### Objectives:
 
-Create Security Group for Elasticcache, RDS & ActiveMQ  
+- Flexible infrastructure
+- No upfront cost
+- Infrastructure as Code (IAAC)
+- PaaS
+- SaaS
 
-Create  
+### Service Comparison:
 
-* RDS  
+| AWS Beanstalk            | Tomcat EC2/VM                |
+|--------------------------|------------------------------|
+| ELB in Beanstalk         | Nginx LB/ELB                 |
+| Autoscaling              | None/Autoscaling             |
+| EFS/S3                    | NFS/S3/EFS                   |
+| RDS                      | MYSQL ON VM/EC2               |
+| Elastic Cache            | Memcached ON VM/EC2           |
+| Active MQ                | RabbitMQ ON VM/EC2            |
+| Route53                  | Local DNS                    |
 
-* Amazon Elastic Cache  
+### Architecture:
 
-* Amazon Active MQ  
+- EC2 INSTANCE
+- ELB
+- AUTOSCALING
+- EFS/S3
+- RDS
+- ELASTIC CACHE
+- ACTIVE MQ
+- ROUTE53
+- CLOUDFRONT
 
-Create Elastic Beanstalk Environment  
+#### Project Architecture Diagram
 
-Update SG of backend to allow traffic from Bean SG  
+![Project Architecture](/week4/image2.png)
 
-Update SG of backend to allow internal traffic  
+### Flow of Execution:
 
-Launch Ec2-Instance for DB Initializing  
+1. **Login to AWS account**
+2. **Create Key pair for Beanstalk instance login**
+3. **Create Security Group for Elastic Cache, RDS & ActiveMQ**
+4. Create
+    - RDS
+    - Amazon Elastic Cache
+    - Amazon Active MQ
+5. Create Elastic Beanstalk Environment
+6. Update SG of the backend to allow traffic from Bean SG
+7. Update SG of the backend to allow internal traffic
+8. Launch EC2-Instance for DB Initializing
+9. Login to the instance and initialize RDS DB
+10. Change health check on Beanstalk to /login
+11. Add 443 https listener to ELB
+12. Build Artifact with Backend Information
+13. Deploy Artifact to Beanstalk
+14. Create CDN with SSL cert
+15. Update Entry in GoDaddy DNS Zones
+16. Test the URL
 
-Login to the instance and Inititialize RDS DB  
+## Summary:
 
-Change healthcheck on beanstalk to /login  
-
-Add 443 https Listner to ELB  
- 
-Build Artifact with Backend Information  
-
-Deploy Artifact to Beanstalk  
-
-Create CDN with ssl cert  
-  
-Update Entry in GoDaddy DNS Zones  
-
-Test the URL
-
-Summary:
-Successfully deployed the project, accessible on:
-https://re-architecturing-web-app-sumama.sumamazaeem.com/
-
-
+Successfully deployed the project, accessible at [https://re-architecturing-web-app-sumama.sumamazaeem.com/](https://re-architecturing-web-app-sumama.sumamazaeem.com/).
