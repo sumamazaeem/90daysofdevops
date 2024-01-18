@@ -1,74 +1,59 @@
-I am following the projects from this course
-https://www.udemy.com/course/devopsprojects/
+# AWS Lift and Shift Project
 
-The project I am working on is 
+I'm currently undertaking a project inspired by the course available on Udemy: [DevOps Projects](https://www.udemy.com/course/devopsprojects/).
 
-##Section 6: Lift and Shift Web App on AWS
+## Project Overview
 
-Its a multi tier WEb app
-we will use aws cloud
-we will use lift and shift
+### Section 6: Lift and Shift Web App on AWS
 
-scenario:
-application is already running on physical machines
+This project involves migrating a multi-tier web application to AWS using the Lift and Shift approach.
 
-the problem:
-managing is complex
-upfront cost
-scaling cost
-manual process
-difficult to automate
-time-consuming
+#### Scenario:
 
-solution:
-using cloud for pay-as-you-go pricing to save cost.
+The application is currently running on physical machines, leading to challenges such as complex management, upfront costs, scaling difficulties, manual processes, and a lack of automation.
 
-Architecture:  
-We will be using EC2 instance for tomcat, rabbitmq, memchache and MySQL
-ELB as replacement of NGINX REplacement
-Autoscaling for automationfor VM Scaling
-S3/EFS for storage
-and route 53 for private DNS Service
+#### Solution:
 
-objective:  
-flexible 
-no upfront cost
-modernize effectively
-IAAC
+Utilizing AWS for pay-as-you-go pricing to address issues related to cost, flexibility, and modernization.
 
-Diagram of the Project Architecture
+### Architecture
 
-![Image](/week4/image1.png)
+- EC2 instances for Tomcat, RabbitMQ, Memcache, and MySQL
+- ELB as an NGINX replacement
+- Autoscaling for VM scaling automation
+- S3/EFS for storage
+- Route 53 for private DNS service
 
-The Flow of Porject Execution is as follows:
-FLOW OF EXECUTION
+#### Objectives:
 
-1. Login to AWS Account
+- Flexibility
+- No upfront costs
+- Effective modernization
+- Infrastructure as Code (IAAC)
 
-2. Create Key Pairs
+#### Project Architecture Diagram
 
-3. Create Security groups
+![Project Architecture](/week4/image1.png)
 
-4. Launch Instances with user data [BASH SCRIPTS]
+### Flow of Project Execution
 
-5. Update IP to name mapping in route 53
+1. **Login to AWS Account**
+2. **Create Key Pairs**
+3. **Create Security Groups**
+4. **Launch Instances with User Data** (BASH SCRIPTS)
+5. **Update IP to Name Mapping in Route 53**
+6. **Build Application from Source Code**
+7. **Upload to S3 Bucket**
+8. **Download Artifact to Tomcat EC2 Instance**
+9. **Setup ELB with HTTPS** (Certificate from Amazon Certificate Manager)
+10. **Map ELB Endpoint to Website Name in Godaddy DNS**
+11. **Verify**
+12. **Build Autoscaling Group for Tomcat Instances**
 
-6. Build Application from source code
+## Summary
 
-7. Upload to S3 bucket
+I completed the project, and the application is now accessible at [https://awsliftandshiftproject.sumamazaeem.com/](https://awsliftandshiftproject.sumamazaeem.com/).
 
-8. Download artifact to Tomcat Ec2 Instance
-
-9. Setup ELB with HTTPS [Cert from Amazon Certificate Manager]
-
-10. Map ELB Endpoint to website name in Godaddy DNS
-
-11. Verify
-
-12. Build Autoscaling Group for Tomcat Instances
-
-#Summary
-Successfully did the project. The app is running on https://awsliftandshiftproject.sumamazaeem.com/
 
 
 
