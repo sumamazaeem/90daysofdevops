@@ -16,12 +16,23 @@ Brief description or purpose of this phase or type of project.
 for example, the legacy application is a multi-tier application stack and is running on VMs, that could be running on physical machines, and as per today's trend, agile, we need continuous deployments and deployments.
 
 #### Problems:
-High CapEx and OpEx
-
+High CapEx and OpEx  
+Chance of Human errors in deployments  
+Not compatible with microservices architecture.  
+Resource wastage  
+Not Portable, envs not in sync  
 
 #### Solution:
 
-Brief explanation of the solution adopted for the project.
+Containerization  
+Consumers low resources  
+suits well for microservice design  
+In containerization, deployments are done via images
+Same container images across environments  
+resusable and repeatable  
+
+#### Statistics
+
 
 ### Architecture
 
