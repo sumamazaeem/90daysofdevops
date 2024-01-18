@@ -44,7 +44,7 @@ We will be using the docker compose and dockerhub as well
 
 ### Architecture
 
-- List of key components or services used in the project architecture.
+
 
 #### Objectives:
 
@@ -52,7 +52,7 @@ We will be using the docker compose and dockerhub as well
 
 #### Project Architecture Diagram
 
-![Project Architecture Diagram](/path/to/image.png)
+![Project Architecture Diagram](/week5/docker-diagram.png)
 
 ### Flow of Project Execution
 
