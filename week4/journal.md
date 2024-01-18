@@ -173,5 +173,7 @@ Create CDN with ssl cert
   
 Update Entry in GoDaddy DNS Zones  
 
-Test the url
+Test the URL
+
+
 
