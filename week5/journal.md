@@ -29,10 +29,18 @@ Consumers low resources
 suits well for microservice design  
 In containerization, deployments are done via images
 Same container images across environments  
-resusable and repeatable  
+reusable and repeatable  
 
-#### Statistics
+#### Tools
+Docker as a container runtime environment to build images, and containerize the vprofile application stack.
+We will be using the docker compose and dockerhub as well
 
+#### STEPS
+* Steps to setup our stack services
+* FInd right base image from dockerhub
+* write Dockerfile to customize images
+* Write docker-compose.yml file to run multi containers
+* Test it & Host images on Dockerhub
 
 ### Architecture
 
