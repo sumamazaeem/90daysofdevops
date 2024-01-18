@@ -31,6 +31,6 @@ In Week 4, I documented my progress in the [journal.md](week4/journal.md) file. 
 
 Detailed documentation of the Lift and Shift AWS project has been provided in the [Week 4 Project Journal](week4/journal.md). It covers the architecture, objectives, execution flow, and a comprehensive summary of the project.
 
-### Summary of Re-Architecturing Web App on AWS Cloud
+### Re-Architecturing Web App on AWS Cloud
 
 The [Week 4 Project Journal](week4/journal.md) contains a thorough overview of the Re-Architecturing Web App project on AWS Cloud. The summary includes the reasoning, scenario, solution, AWS services used, objectives, architectural details, execution flow, and the successful deployment summary with an accessible URL.
