@@ -7,14 +7,17 @@ This week, in week 5 I will be doing 3 Projects as follows
 
 ## Project Overview
 
-
 ### Section 8: [Project Phase/Type]
 
 Brief description or purpose of this phase or type of project.
 
 #### Scenario:
 
-Description of the current state or situation leading to the need for the project.
+for example, the legacy application is a multi-tier application stack and is running on VMs, that could be running on physical machines, and as per today's trend, agile, we need continuous deployments and deployments.
+
+#### Problems:
+High CapEx and OpEx
+
 
 #### Solution:
 
