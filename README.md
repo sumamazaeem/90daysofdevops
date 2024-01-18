@@ -29,7 +29,7 @@ In Week 4, I documented my progress in the [journal.md](week4/journal.md) file. 
 
 ### AWS Lift and Shift Project
 
-Detailed documentation of the Lift and Shift AWS project has been provided in the [Week 4 Project Journal](week4/journal.md). It covers the architecture, objectives, execution flow, and a comprehensive summary of the project.
+Detailed documentation of the Lift and Shift AWS project has been provided in the [Week 4 Project Journal](week4/journal.md#re-architecturing-web-app-on-aws-cloud-cloud-native). It covers the architecture, objectives, execution flow, and a comprehensive summary of the project.
 
 ### Re-Architecturing Web App on AWS Cloud
 
