@@ -133,5 +133,43 @@ ACTIVE MQ
 ROUTE53  
 CLOUDFRONT  
 
+FLOW OF EXECUTION
 
+Login to aws account  
+
+Create Key pair for beanstalk instance login  
+
+Create Security Group for Elasticcache, RDS & ActiveMQ  
+
+Create  
+
+* RDS  
+
+* Amazon Elastic Cache  
+
+* Amazon Active MQ  
+
+Create Elastic Beanstalk Environment  
+
+Update SG of backend to allow traffic from Bean SG  
+
+Update SG of backend to allow internal traffic  
+
+Launch Ec2-Instance for DB Initializing  
+
+Login to the instance and Inititialize RDS DB  
+
+Change healthcheck on beanstalk to /login  
+
+Add 443 https Listner to ELB  
+ 
+Build Artifact with Backend Information  
+
+Deploy Artifact to Beanstalk  
+
+Create CDN with ssl cert  
+  
+Update Entry in GoDaddy DNS Zones  
+
+Test the url
 
