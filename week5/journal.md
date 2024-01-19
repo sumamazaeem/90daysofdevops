@@ -9,8 +9,6 @@ This week, in week 5 I will be doing 3 Projects as follows
 
 ### Section 8: [Project Phase/Type]
 
-Brief description or purpose of this phase or type of project.
-
 #### Scenario:
 
 for example, the legacy application is a multi-tier application stack and is running on VMs, that could be running on physical machines, and as per today's trend, agile, we need continuous deployments and deployments.
@@ -45,24 +43,15 @@ We will be using the docker compose and dockerhub as well
 ### Architecture
 
 
-
-#### Objectives:
-
-- List of project objectives.
-
 #### Project Architecture Diagram
 
 ![Project Architecture Diagram](/week5/Docker-diagram.png)
 
-### Flow of Project Execution
-
-1. **Login to [Platform/Service] Account**
-2. **Create [Key Pairs/Security Groups/etc.]**
-3. **[Any other project-specific steps]**
-
 ## Summary
 
-Summary or conclusion of the project.
+Successfully created the docker images and pushed to dockerhub at https://hub.docker.com/repositories/sumamazaeem
+
+## Microservices Project
 
 ---
 
