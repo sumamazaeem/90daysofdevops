@@ -58,9 +58,10 @@ The repo can be accessed at https://github.com/sumamazaeem/emart-app
 
 ![Microservices Architecture Diagram](/week5/microservices-diagram.png)
 
-## Summary
+## Summary  
 
-Successfully deployed the project.
+Successfully deployed the project.  
+
 ---
 
 # Next Project Section
