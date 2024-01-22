@@ -64,11 +64,12 @@ Successfully deployed the project.
 
 ---
 
-# Next Project Section
 
-## Section X: [Next Phase/Type]
+# Jenkins Pipeline as a Code Project
 
-[Follow the structure above for the next phase or type of project.]
+I learned about the purpose of the jenkis, CI concepts and why it is important in todays scenario. I also learnt about the processes in CI and Jenkins, and its features and plugins.
+Before Starting this project, I completed the pre req, gained the knowledge about the jenkins installation on ec2 ubuntu, difference between freestyle vs pipeline as a code project, tools in jenkins, how to create a job in jenkins, build, plugins, flow of continuous integration pipeline, steps for continous integration, pipeline as a code introduction and code analysis, qulatiy gates, software repositories intro(nexus), nexus PAAC Demo.....
+
 
 ---
 
