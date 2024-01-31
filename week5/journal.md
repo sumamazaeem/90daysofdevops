@@ -102,10 +102,3 @@ I observed the output
 ![Jenkins output](/week5/Jenkins-output.png)
 
 
----
-
-# Another Project Section
-
-## Section X: [Another Phase/Type]
-
-[Follow the structure above for another phase or type of project.]
