@@ -17,7 +17,7 @@ The project is in development and agile SDLC is used, dev makes regular code cha
 
 #### Problem:
 Frequent code changes, depended on Q/A team. errors keep accumulating.
-dev team needs to rework and fix the bugs and error. not fast possible as test is done manual and inter team dependicies
+dev team needs to rework and fix the bugs and error. not fast possible as the test is done manually and inter-team dependencies
 
 #### Solution:
 
@@ -51,10 +51,9 @@ Regular automated build and test for every commit and notify on every step, fix 
 
 ![Project Workflow Diagram](/week6/workflow-diagram.png)
 
-
 ### Architecture
 
-- List of key components or services used in the project architecture.
+![Project Architectural Diagram](/week6/week6-p1-architectural-diagram.png)
 
 #### Objectives:
 
