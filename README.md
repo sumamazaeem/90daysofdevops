@@ -34,3 +34,12 @@ Detailed documentation of the Lift and Shift AWS project has been provided in th
 ### Re-Architecturing Web App on AWS Cloud
 
 The [Week 4 Project Journal](week4/journal.md#re-architecturing-web-app-on-aws-cloud-cloud-native) contains a thorough overview of the Re-Architecturing Web App project on AWS Cloud. The summary includes the reasoning, scenario, solution, AWS services used, objectives, architectural details, execution flow, and the successful deployment summary with an accessible URL.
+
+## Week 5:
+
+In Week 5, I documented my progress in the [journal.md](week5/journal.md) file. Additionally, I incorporated the results of two Projects
+
+### Containerization of Java Project using Docker
+
+### Jenkins Pipeline as a Code Project
+
