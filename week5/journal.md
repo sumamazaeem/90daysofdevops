@@ -1,7 +1,6 @@
-This week, in week 5, I will be doing 3 Projects as follows
+This week, in week 5, I will be doing 2 Projects as follows
 1. Containerization of Java Project using Docker
 2. Jenkins Pipeline as a Code(Groovy) Project
-3. Continous Integration using Jenkins, Nexus, Sonarqube and Slack
    
 # Containerization of Java Project using Docker
 
