@@ -10,15 +10,47 @@ This week, in week 6 I will be doing 3 Projects as follows
 
 ### Section 8: [Project Phase/Type]
 
-Brief description or purpose of this phase or type of project.
 
 #### Scenario:
 
-Description of the current state or situation leading to the need for the project.
+The project is in development and agile SDLC is used, dev makes regular code changes, and commits need to be built and tested continuously. Usually, the build and release team will do the job or developers' responsibility to merge and integrate code.
+
+#### Problem:
+Frequent code changes, depended on Q/A team. errors keep accumulating.
+dev team needs to rework and fix the bugs and error. not fast possible as test is done manual and inter team dependicies
 
 #### Solution:
 
-Brief explanation of the solution adopted for the project.
+Regular automated build and test for every commit and notify on every step, fix if any problem happens. The process is called Continuous Integration.
+
+#### Benefits:
+
+- Shorter MTTR
+- Works well with AGILE
+- NO Human intervention
+- Fault Isolation
+
+#### Tools:
+- Jenkins
+- Git
+- Maven
+- Checkstyle
+- Slack
+- Email notification integration
+- Sonatype Nexus (Artifact/software repo)
+- Sonarqube (Code Analysis server)
+- AWS Ec2
+
+#### Objective:
+- Fault Isolation
+- Short MTTR
+- Fast Turn around on feature changes
+- Less disruptive
+
+### Workflow Diagram
+
+![Project Workflow Diagram](/week6/workflow-diagram.png)
+
 
 ### Architecture
 
