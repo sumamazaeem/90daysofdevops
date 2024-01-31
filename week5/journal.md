@@ -67,8 +67,39 @@ Successfully deployed the project.
 
 # Jenkins Pipeline as a Code Project
 
-I learned about the purpose of the jenkis, CI concepts and why it is important in todays scenario. I also learnt about the processes in CI and Jenkins, and its features and plugins.
-Before Starting this project, I completed the pre req, gained the knowledge about the jenkins installation on ec2 ubuntu, difference between freestyle vs pipeline as a code project, tools in jenkins, how to create a job in jenkins, build, plugins, flow of continuous integration pipeline, steps for continous integration, pipeline as a code introduction and code analysis, qulatiy gates, software repositories intro(nexus), nexus PAAC Demo.....
+I learned about the purpose of the Jenkins and CI concepts, and why it is important in today's scenario. I also learned about the processes in CI and Jenkins, and its features and plugins.
+Before Starting this project, I completed the prereq, gained knowledge about the Jenkins installation on ec2 ubuntu, the difference between freestyle vs pipeline as a code project, tools in Jenkins, how to create a job in Jenkins, build, plugins, flow of continuous integration pipeline, steps for continuous integration, pipeline as a code introduction and code analysis, quality gates, software repositories intro(nexus), nexus PAAC Demo.....
+
+While installing Jenkins, I resolved the CSRF Problem.
+
+While learning, I learned about the build jobs, build processes, maven and OracleJDK installations, troubleshooting through console output logs, build steps and  post-build steps, and other factors.
+
+Then, I created the new item and clicked on pipeline and then wrote the following pipeline script
+
+```
+pipeline {
+    agent any
+    stages {
+        stage ('Fetch code') {
+            steps {
+                git branch: 'paac', url: 'https://github.com/devopshydclub/vprofile-project.git'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'mvn install'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+    }
+}
+```
+I observed the output
+![Jenkins output](/week5/Jenkins-output.png)
 
 
 ---
