@@ -309,8 +309,7 @@ In Next Step, I connected Slack for the notification system
 
 ## Summary
 
-Summary or conclusion of the project.
-
+Successfully the completed project.
 ---
 
 # Next Project Section
