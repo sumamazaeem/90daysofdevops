@@ -297,7 +297,11 @@ I configured the sonarqube, and other variables, connected the github webhook in
 7. QULAITY CODE
 8. UPLOAD ARTIFACT
 
+The Jenkins file used is in my repo: https://github.com/sumamazaeem/vprofile-project/blob/ci-jenkins/Jenkinsfile
+
 ![Final Jenkins output](/week6/jenkins-pipeline-final.png)
+
+![Nexus repo](/week6/nexus-repo-final.png)
 
 ## Summary
 
