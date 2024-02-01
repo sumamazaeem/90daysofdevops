@@ -303,6 +303,9 @@ The Jenkins file used is in my repo: https://github.com/sumamazaeem/vprofile-pro
 
 ![Nexus repo](/week6/nexus-repo-final.png)
 
+In Next Step, I will be connecting the Slack for notification system without coming to jenkins for checking, if it passed or not
+
+
 ## Summary
 
 Summary or conclusion of the project.
