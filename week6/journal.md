@@ -276,7 +276,11 @@ Also, Sonar Server is also successfully running on port 8081
 
 ![Sonar-server](/week6/sonar-server.png)
 
+Then, I used gitpod.io, forked the upstream repo and configured/connected it with github.
 
+I installed the OracleJDK8 and OracleJDK11 and installed maven via tools
+
+I added nexus credentials in security>credentials tab
 
 
 ## Summary
