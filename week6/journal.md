@@ -264,6 +264,16 @@ echo "System reboot in 30 sec"
 sleep 30
 reboot
 ```
+I installed the Jenkins Server and installed the following plugins in it
+
+![Plugins installed](/week6/plugins-installed.png)
+
+Then I logged into nexus server and in repositories section, I created 4 repositories as shown by vprofile prefix
+
+![Nexus Repo](/week6/nexus-repo.png)
+
+Also, Sonar Server is also successfully running on port 8081
+
 
 
 ## Summary
