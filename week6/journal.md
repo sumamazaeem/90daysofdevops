@@ -274,6 +274,9 @@ Then I logged into nexus server and in repositories section, I created 4 reposit
 
 Also, Sonar Server is also successfully running on port 8081
 
+![Sonar-server](/week6/sonar-server.png)
+
+
 
 
 ## Summary
