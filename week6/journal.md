@@ -282,6 +282,22 @@ I installed the OracleJDK8 and OracleJDK11 and installed maven via tools
 
 I added nexus credentials in security>credentials tab
 
+Then, I created a ssh keys, added the public key on github and auth jenkins with private key
+
+After a lot of debugging and successfully failing 14 builds and 4 hours of troubleshooting, I successfully managed to complete the jenkins pipeline. Learned a lot about debugging ways, reading documentations etc.
+
+I configured the sonarqube, and other variables, connected the github webhook in such a way when a commit happens, he code gets pushed to jenkins, where it passes through following stages:
+
+1. Declarative checkout SCM
+2. BUILD
+3. UNIT TEST
+4. INTEGRATION TEST
+5. CODE ANALYSIS WITH CHECKSTYLE
+6. SONAR ANALYSIS
+7. QULAITY CODE
+8. UPLOAD ARTIFACT
+
+![Final Jenkins output](/week6/jenkins-pipeline-final.png)
 
 ## Summary
 
