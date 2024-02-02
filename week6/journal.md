@@ -397,7 +397,7 @@ Cloud Services CI to remove OPS overhead
 
 **8. Test Pipeline**
 
-In part 1 of the workflow, I 
+In part 1 of the workflow, I created an IAM user, created a policy and attached it, downloaded the user's cli credentials, authenticated using the SSH key, and exchanged the key. then, I cloned the repo locally, removed the remote, git switched all the branches, so it is available locally, and then changed the .config file and added the URL of codecommit so that I could add the codecommit URL. I have successfully pushed all the branches of the local repo to codecommit.
 
 
 ---
