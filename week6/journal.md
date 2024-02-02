@@ -7,10 +7,6 @@ This week, in week 6 I will be doing 3 Projects as follows
 
 ## Project Overview
 
-
-### Section 8: [Project Phase/Type]
-
-
 #### Scenario:
 
 The project is in development and agile SDLC is used, dev makes regular code changes, and commits need to be built and tested continuously. Usually, the build and release team will do the job or developers' responsibility to merge and integrate code.
@@ -312,11 +308,42 @@ In Next Step, I connected Slack for the notification system
 Successfully the completed project.
 ---
 
-# Next Project Section
+# Continous Integration on AWS Cloud
 
-## Section X: [Next Phase/Type]
+## Project Overview
 
-[Follow the structure above for the next phase or type of project.]
+#### Scenario:
+
+The project is in development and agile SDLC is used, dev makes regular code changes, and commits need to be built and tested continuously. Usually, the build and release team will do the job or developers' responsibility to merge and integrate code.
+
+#### Problem:
+Frequent code changes, depended on Q/A team. errors keep accumulating.
+dev team needs to rework and fix the bugs and error. not fast possible as the test is done manually and inter-team dependencies
+
+#### Problem with CI Server
+Maintaince, operational overhead to maintain server like jenkins, nexus, sonarqube
+
+#### Solution:
+
+Cloud Services CI to remove OPS overhead
+
+#### Benefits:
+
+- Shorter MTTR
+- Works well with AGILE
+- NO Human intervention
+- Fault Isolation
+
+#### AWS Services
+- Code Commit
+- Code Artifact
+- Code Build
+- Code Deploy
+- Cloud Pipeline
+
+  other Services Used:
+- Sonar Cloud(Non AWS Services)
+- CHeckstyle(Non AWS Tool)
 
 ---
 
