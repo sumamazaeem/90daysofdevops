@@ -351,67 +351,54 @@ Cloud Services CI to remove OPS overhead
 
 ### Flow of Execution
 
-Login to AWS Account
+**AWS Setup Steps**
 
-Code Commit Setup  
+**1. Login to AWS Account**
 
-a. Create Codecommit repo
+**2. Code Commit Setup**
 
-b. Create IAM User with codecommit Policy
+   - Create CodeCommit repo
+   - Create IAM User with CodeCommit Policy
+   - Generate SSH key locally
+   - Exchange keys with IAM User
+   - Put source code from GitHub repo to CodeCommit repository and push
 
-c. Generate ssh key locally
+**3. Code Artifact Setup**
 
-d. Exchange keys with IAM User
+   - Create an IAM User with CodeArtifact access
+   - Install AWS CLI and configure
+   - Export auth token
+   - Update `settings.xml` file in source code top-level directory with provided details
+   - Update `pom.xml` file with repository details
 
-e. Put Source code from github repo to code commit repository and push
+**4. Sonar Cloud Setup**
 
-Code Artifact Setup  
+   - Create Sonar Cloud account
+   - Generate token
+   - Create SSM Parameters with Sonar details
+   - Create Build project
+   - Update CodeBuild role to access SSM Parameter Store
 
-a. Create an IAM User with code artifact access
+**5. Create Notification for SNS**
 
-b. Install AWS CLI and configure
+**6. Setup Build Project**
 
-c. Export auth token
+   - Update `pom.xml` with artifact version with timestamp
+   - Create variables in SSM Parameter Store
+   - Create Build Project
+   - Update CodeBuild role to access SSM Parameter Store
 
-d. Update settings.xml file in source code top level directory with provide details below
+**7. Create Pipeline**
 
-e. Update pom.xml file with repo details
+   - CodeCommit
+   - Test code
+   - Build
+   - Deploy to S3 bucket
 
-Sonar Cloud Setup
+**8. Test Pipeline**
 
-a. Create sonar cloud account
+In part 1 of the workflow, I 
 
-b. Generate token
-
-c. Create SSM Parameters with sonar details
-
-e. Create Build project
-
-f. Update codebuild role to access SSM parameter store
-
-Create Notification for SNS
-
-Setup Build Project
-
-a. Update pom.xml with artifact version with timestamp
-
-b. Create variables in SSM Parameter store
-
-c. Create build Project
-
-d. Update Codebuild role to access SSM parameter store
-
-Create Pipeline
-
-a. Codecommit
-
-b. Test code
-
-c. Build
-
-d. Deploy to s3 bucket
-
-Test Pipeline
 
 ---
 
