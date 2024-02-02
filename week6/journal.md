@@ -345,6 +345,74 @@ Cloud Services CI to remove OPS overhead
 - Sonar Cloud(Non AWS Services)
 - CHeckstyle(Non AWS Tool)
 
+### Architecture
+
+![Project Architecture](/week6/CIwithAWS-architecture.png)
+
+### Flow of Execution
+
+Login to AWS Account
+
+Code Commit Setup  
+
+a. Create Codecommit repo
+
+b. Create IAM User with codecommit Policy
+
+c. Generate ssh key locally
+
+d. Exchange keys with IAM User
+
+e. Put Source code from github repo to code commit repository and push
+
+Code Artifact Setup  
+
+a. Create an IAM User with code artifact access
+
+b. Install AWS CLI and configure
+
+c. Export auth token
+
+d. Update settings.xml file in source code top level directory with provide details below
+
+e. Update pom.xml file with repo details
+
+Sonar Cloud Setup
+
+a. Create sonar cloud account
+
+b. Generate token
+
+c. Create SSM Parameters with sonar details
+
+e. Create Build project
+
+f. Update codebuild role to access SSM parameter store
+
+Create Notification for SNS
+
+Setup Build Project
+
+a. Update pom.xml with artifact version with timestamp
+
+b. Create variables in SSM Parameter store
+
+c. Create build Project
+
+d. Update Codebuild role to access SSM parameter store
+
+Create Pipeline
+
+a. Codecommit
+
+b. Test code
+
+c. Build
+
+d. Deploy to s3 bucket
+
+Test Pipeline
+
 ---
 
 # Another Project Section
