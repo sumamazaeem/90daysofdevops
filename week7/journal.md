@@ -19,3 +19,23 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 go version
 ```
+
+##### Getting Started Lesson
+
+- Course Introduction (02:35)
+- Introduction & Installation (06:03)
+- Your First Go Program (05:58)
+- Lab: Introduction to Go
+- Course Resources
+- Solutions for this Course
+- Join our Community
+
+##### Data Type Lesson
+
+- What is a Data Type (03:29)
+- Static vs Dynamic Typed Languages (04:16)
+- Lab: Static vs Dynamic Typed Languages
+- Kinds of Data Types (03:10)
+- Lab: Numbers, Boolean and String
+- Variables, Syntax and Declaration (03:51)
+- Printing Variables
